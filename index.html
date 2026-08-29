@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gianmarco Contreras | Desarrollo Web</title>
+<meta name="description" content="Diseño y desarrollo de páginas web rápidas y modernas, listas para que tus clientes te contacten por WhatsApp.">
+
+<!-- Open Graph: reemplaza las URLs de abajo cuando despliegues en Netlify -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gianmarco Contreras | Desarrollador Web">
+<meta property="og:description" content="Diseño y desarrollo de páginas web rápidas y modernas, listas para que tus clientes te contacten por WhatsApp.">
+<meta property="og:image" content="https://TU-SITIO.netlify.app/og-image.jpg">
+<meta property="og:url" content="https://TU-SITIO.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        colors: {
+          ink: '#0f172a',
+          brand: { DEFAULT: '#4f46e5', dark: '#4338ca' },
+          wa: '#25D366',
+        }
+      }
+    }
+  }
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', system-ui, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-ink antialiased">
+
+<!-- WhatsApp number placeholder -->
+<!-- Reemplaza 51993004829 por tu número con código de país -->
+
+<!-- Header -->
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-100">
+  <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+    <span class="flex flex-col sm:flex-row sm:items-baseline sm:gap-1.5 leading-tight">
+      <span class="font-bold text-sm sm:text-lg text-ink">Gianmarco Contreras</span>
+      <span class="text-xs sm:text-lg font-bold text-brand">| Desarrollador Web</span>
+    </span>
+    <a href="https://wa.me/51993004829?text=Hola%20Gianmarco%2C%20quiero%20cotizar%20una%20p%C3%A1gina%20web"
+       target="_blank" rel="noopener"
+       class="hidden sm:inline-flex items-center gap-2 bg-wa hover:bg-[#1ebe5b] text-white text-sm font-semibold px-4 py-2.5 rounded-full transition shadow-sm shadow-green-200">
+      <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5.003L2 22l5.135-1.315A9.947 9.947 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.166a8.14 8.14 0 01-4.152-1.137l-.298-.177-3.09.792.825-3.013-.194-.31A8.15 8.15 0 013.834 12c0-4.507 3.665-8.166 8.167-8.166 4.5 0 8.166 3.659 8.166 8.166 0 4.507-3.665 8.166-8.166 8.166z"/></svg>
+      Cotizar por WhatsApp
+    </a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="max-w-6xl mx-auto px-5 pt-14 pb-16 sm:pt-20 sm:pb-24 text-center">
+  <h1 class="text-3xl sm:text-5xl font-extrabold leading-tight tracking-tight text-ink max-w-3xl mx-auto">
+    ¿Sientes que tu negocio no existe en internet?
+  </h1>
+  <p class="mt-5 text-base sm:text-lg text-slate-600 max-w-xl mx-auto">
+    Diseñamos páginas web ultrarrápidas y modernas, listas para que tus clientes te contacten directo a tu WhatsApp.
+  </p>
+  <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+    <a href="#demos"
+       class="w-full sm:w-auto inline-flex justify-center items-center bg-brand hover:bg-brand-dark text-white font-semibold px-6 py-3.5 rounded-xl transition shadow-lg shadow-indigo-200">
+      Ver demos en vivo
+    </a>
+    <a href="https://wa.me/51993004829?text=Hola%20Gianmarco%2C%20quiero%20cotizar%20una%20p%C3%A1gina%20web"
+       target="_blank" rel="noopener"
+       class="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-wa hover:bg-[#1ebe5b] text-white font-semibold px-6 py-3.5 rounded-xl transition shadow-lg shadow-green-200">
+      <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5.003L2 22l5.135-1.315A9.947 9.947 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.166a8.14 8.14 0 01-4.152-1.137l-.298-.177-3.09.792.825-3.013-.194-.31A8.15 8.15 0 013.834 12c0-4.507 3.665-8.166 8.167-8.166 4.5 0 8.166 3.659 8.166 8.166 0 4.507-3.665 8.166-8.166 8.166z"/></svg>
+      Cotizar por WhatsApp
+    </a>
+  </div>
+
+  <p class="mt-8 text-sm text-slate-500">
+    Disponible para nuevos proyectos este mes
+  </p>
+</section>
+
+<!-- PAS Section -->
+<section class="bg-slate-50 py-16 sm:py-24">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="grid gap-6 sm:grid-cols-3">
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+        <div class="w-11 h-11 rounded-xl bg-red-50 flex items-center justify-center text-2xl mb-4">🔍</div>
+        <h3 class="font-bold text-lg mb-2">El problema</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Publicar en redes ayuda, pero si alguien busca tus servicios en Google o quiere información clara hoy mismo, no te encuentra.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+        <div class="w-11 h-11 rounded-xl bg-amber-50 flex items-center justify-center text-2xl mb-4">⏱️</div>
+        <h3 class="font-bold text-lg mb-2">Lo que pasa después</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Si la gente entra a una página lenta o difícil de usar en el celular, la cierra en 3 segundos y se va con tu competencia.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+        <div class="w-11 h-11 rounded-xl bg-emerald-50 flex items-center justify-center text-2xl mb-4">✅</div>
+        <h3 class="font-bold text-lg mb-2">La solución</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Creamos una web ligera, moderna y pensada para celulares. Tu cliente entra, ve lo que haces y te contacta por WhatsApp con un solo clic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Demos Section -->
+<section id="demos" class="py-16 sm:py-24">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-ink">Prueba lo que puedo construir para ti</h2>
+      <p class="mt-3 text-slate-600">Toca cualquier ejemplo y navega la maqueta en vivo desde tu teléfono:</p>
+    </div>
+    <div class="grid gap-6 sm:grid-cols-2">
+      <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition group">
+        <div class="aspect-video bg-slate-100 overflow-hidden">
+          <img src="assets/demo-clinica-dental.png" alt="Demo de landing page para Clínica Dental Sonrisa" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300">
+        </div>
+        <div class="p-5">
+          <h3 class="font-bold text-lg">Demo Salud &amp; Consultorios</h3>
+          <p class="text-sm text-slate-500 mt-1 mb-4">Ideal para clínicas, consultorios y especialistas de salud.</p>
+          <a href="https://clindentalsonrisa.netlify.app/" target="_blank" rel="noopener"
+             class="inline-flex items-center gap-2 text-brand font-semibold text-sm hover:text-brand-dark">
+            Ver Demo en Vivo
+            <svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition group">
+        <div class="aspect-video bg-slate-100 overflow-hidden">
+          <img src="assets/demo-centro-estetico.png" alt="Demo de landing page para Aura Medicina Estética" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300">
+        </div>
+        <div class="p-5">
+          <h3 class="font-bold text-lg">Demo Salud &amp; Estética</h3>
+          <p class="text-sm text-slate-500 mt-1 mb-4">Ideal para centros estéticos, spas y medicina estética.</p>
+          <a href="https://centroesteticoaura.netlify.app/" target="_blank" rel="noopener"
+             class="inline-flex items-center gap-2 text-brand font-semibold text-sm hover:text-brand-dark">
+            Ver Demo en Vivo
+            <svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Beneficios -->
+<section class="bg-slate-50 py-16 sm:py-24">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+        <div class="text-3xl mb-3">⚡</div>
+        <h3 class="font-bold mb-1">Carga al instante</h3>
+        <p class="text-sm text-slate-600">Tu sitio abre en menos de 1.5 segundos.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+        <div class="text-3xl mb-3">📱</div>
+        <h3 class="font-bold mb-1">100% Celular</h3>
+        <p class="text-sm text-slate-600">Diseñado para verse perfecto en smartphones.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+        <div class="text-3xl mb-3">💬</div>
+        <h3 class="font-bold mb-1">WhatsApp a 1 Clic</h3>
+        <p class="text-sm text-slate-600">Consultas directas a tu chat, sin formularios largos.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
+        <div class="text-3xl mb-3">🤝</div>
+        <h3 class="font-bold mb-1">Cero complicaciones</h3>
+        <p class="text-sm text-slate-600">Me encargo del hosting, dominio y la parte técnica.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sobre mí -->
+<section class="py-16 sm:py-24">
+  <div class="max-w-3xl mx-auto px-5">
+    <div class="bg-white border border-slate-100 rounded-3xl p-8 sm:p-10 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+      <img src="assets/foto-perfil.jpeg" alt="Foto de perfil de Gianmarco Contreras"
+           class="w-28 h-28 rounded-full object-cover ring-4 ring-indigo-50 shrink-0">
+      <div>
+        <h2 class="text-2xl font-extrabold mb-2">¡Hola! Soy Gianmarco</h2>
+        <p class="text-slate-600 leading-relaxed">
+          Me dedico al desarrollo web y ayudo a emprendedores y negocios a tener una presencia digital limpia, útil y ágil.
+          Sin vueltas ni texto de relleno: mi meta es que tu web te traiga clientes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer CTA -->
+<footer class="bg-ink py-16 sm:py-24">
+  <div class="max-w-2xl mx-auto px-5 text-center">
+    <h2 class="text-2xl sm:text-3xl font-extrabold text-white">¿Quieres cotizar tu página web?</h2>
+    <p class="mt-3 text-slate-300">Escríbeme sin compromiso y me cuentas qué necesita tu negocio.</p>
+    <p class="mt-2 text-sm font-semibold text-wa">Planes desde S/500</p>
+    <a href="https://wa.me/51993004829?text=Hola%20Gianmarco%2C%20quiero%20cotizar%20una%20p%C3%A1gina%20web"
+       target="_blank" rel="noopener"
+       class="mt-8 inline-flex items-center gap-2 bg-wa hover:bg-[#1ebe5b] text-white font-bold text-lg px-8 py-4 rounded-xl transition shadow-lg shadow-green-900/40">
+      <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5.003L2 22l5.135-1.315A9.947 9.947 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.166a8.14 8.14 0 01-4.152-1.137l-.298-.177-3.09.792.825-3.013-.194-.31A8.15 8.15 0 013.834 12c0-4.507 3.665-8.166 8.167-8.166 4.5 0 8.166 3.659 8.166 8.166 0 4.507-3.665 8.166-8.166 8.166z"/></svg>
+      Hablar por WhatsApp
+    </a>
+    <p class="mt-10 text-xs text-slate-500">© 2026 Gianmarco Contreras. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- Botón flotante WhatsApp -->
+<div id="floating-wa-wrap" class="fixed bottom-5 right-5 z-50 flex flex-col-reverse sm:flex-row items-end gap-2">
+  <div id="wa-bubble"
+       class="flex opacity-0 translate-y-2 transition-all duration-300 items-center gap-2 bg-white text-ink text-sm font-medium pl-4 pr-2 py-2.5 rounded-2xl rounded-br-sm sm:rounded-br-sm rounded-bl-sm sm:rounded-bl-2xl shadow-lg border border-slate-100 max-w-[calc(100vw-2.5rem)] w-max sm:max-w-[220px]">
+    <span>¿Tienes dudas? Escríbeme 👋</span>
+    <button id="wa-bubble-close" aria-label="Cerrar mensaje" class="shrink-0 text-slate-400 hover:text-slate-600 text-lg leading-none px-1">&times;</button>
+  </div>
+  <a id="floating-wa" href="https://wa.me/51993004829?text=Hola%20Gianmarco%2C%20quiero%20cotizar%20una%20p%C3%A1gina%20web"
+     target="_blank" rel="noopener" aria-label="Contactar por WhatsApp"
+     class="bg-wa hover:bg-[#1ebe5b] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-xl shadow-green-900/30 transition-transform hover:scale-105 shrink-0">
+    <svg aria-hidden="true" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5.003L2 22l5.135-1.315A9.947 9.947 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.166a8.14 8.14 0 01-4.152-1.137l-.298-.177-3.09.792.825-3.013-.194-.31A8.15 8.15 0 013.834 12c0-4.507 3.665-8.166 8.167-8.166 4.5 0 8.166 3.659 8.166 8.166 0 4.507-3.665 8.166-8.166 8.166z"/></svg>
+  </a>
+</div>
+
+<script>
+  const wrap = document.getElementById('floating-wa-wrap');
+  const bubble = document.getElementById('wa-bubble');
+  const bubbleClose = document.getElementById('wa-bubble-close');
+  const footerCta = document.querySelector('footer a[href^="https://wa.me/"]');
+
+  // Mostrar el globo de mensaje una vez, a los 6s, si el usuario no lo cerró antes
+  let bubbleTimer = null;
+  if (bubble && !sessionStorage.getItem('waBubbleDismissed')) {
+    bubbleTimer = setTimeout(() => {
+      bubble.classList.remove('opacity-0', 'translate-y-2');
+    }, 6000);
+  }
+  if (bubbleClose) {
+    bubbleClose.addEventListener('click', (e) => {
+      e.preventDefault();
+      bubble.classList.add('opacity-0', 'translate-y-2');
+      sessionStorage.setItem('waBubbleDismissed', '1');
+      if (bubbleTimer) clearTimeout(bubbleTimer);
+    });
+  }
+
+  // Ocultar el botón flotante cuando el CTA final de WhatsApp ya es visible
+  if (footerCta && wrap && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        wrap.style.opacity = entry.isIntersecting ? '0' : '1';
+        wrap.style.pointerEvents = entry.isIntersecting ? 'none' : 'auto';
+      });
+    }, { threshold: 0.3 });
+    observer.observe(footerCta);
+    wrap.style.transition = 'opacity .2s ease';
+  }
+</script>
+
+</body>
+</html>
